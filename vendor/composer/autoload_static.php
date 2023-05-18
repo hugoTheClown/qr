@@ -12,6 +12,10 @@ class ComposerStaticInit6441f6b11a63508347963d0c49458b44
             'chillerlan\\Settings\\' => 20,
             'chillerlan\\QRCode\\' => 18,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -22,6 +26,10 @@ class ComposerStaticInit6441f6b11a63508347963d0c49458b44
         'chillerlan\\QRCode\\' => 
         array (
             0 => __DIR__ . '/..' . '/chillerlan/php-qrcode/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

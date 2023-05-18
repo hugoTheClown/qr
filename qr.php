@@ -14,7 +14,7 @@ use chillerlan\QRCode\Common\EccLevel;
 use chillerlan\QRCode\Data\QRMatrix;
 use chillerlan\QRCode\Output\QROutputInterface;
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/./vendor/autoload.php';
 
 $options = new QROptions([
     'version'             => 7,
